@@ -1,6 +1,16 @@
-# Windows companion
-
-`math-hotkeys.ahk` provides the same ten `Ctrl+M`, second-key snippets in selected Windows applications. It is optional and is not included in the Joplin `.jpl` archive.
+# Hotkeys
+| Key | Action | No selection | Selected text |
+| --- | --- | --- | --- |
+| `M` | Inline math | `$<caret>$` | Wraps in `$…$`; unwraps a complete single-dollar selection |
+| `E` | Display math | `$$`, empty line, `$$` | Wraps between delimiter-only `$$` lines; unwraps a complete display |
+| `F` | Fraction | `\frac{<caret>}{}` | Places the selection in the numerator |
+| `D` | Partial | `\partial <caret>` | Places the selection after `\partial ` |
+| `C` | Cases | `\begin{cases}` body `\end{cases}` | Places the selection in the body |
+| `B` | Matrix | `\begin{bmatrix}` body `\end{bmatrix}` | Places the selection in the body |
+| `S` | Square root | `\sqrt{<caret>}` | Places the selection in the radicand |
+| `I` | Integral | `\int_{}^{} <caret>` | Places the selection in the integrand position |
+| `A` | Aligned | `\begin{aligned}` body `\end{aligned}` | Places the selection in the body |
+| `P` | Parentheses | `\left(<caret>\right)` | Places the selection between the parentheses |
 
 ## Requirements and launch
 
